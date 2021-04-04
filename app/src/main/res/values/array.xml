@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="arrayQuiz">
+        <item>@array/Quiz1</item>
+        <item>@array/Quiz2</item>
+        <item>@array/Quiz3</item>
+        <item>@array/Quiz4</item>
+        <item>@array/Quiz5</item>
+    </array>
+    <string-array name="Quiz1">
+        <item>UI Layouts</item>
+        <item>Which of the following options does not belong to the layouts of Android Studio?</item>
+        <item>Curve Layout</item>
+        <item>Linear Layout</item>
+        <item>Relative Layout</item>
+    </string-array>
+
+    <string-array name="Quiz2">
+        <item>Activity Lifecycle</item>
+        <item>Which of the following options is not one part of the activity lifecycle?</item>
+        <item>onCreate()</item>
+        <item>onRun()</item>
+        <item>onResume()</item>
+    </string-array>
+
+    <string-array name="Quiz3">
+        <item>Pass Values</item>
+        <item>Which of the following options can be used with Intent to pass values between two Activities?</item>
+        <item>addExtra()</item>
+        <item>putValue()</item>
+        <item>putExtra()</item>
+    </string-array>
+
+    <string-array name="Quiz4">
+        <item>Activity Jump</item>
+        <item>Which of the following options allows components to request functionally from other components of the Android system?</item>
+        <item>Intent</item>
+        <item>TypedArray</item>
+        <item>ArrayList</item>
+    </string-array>
+
+    <string-array name="Quiz5">
+        <item>Data Transfer</item>
+        <item>Which of the following options can make the Activity jump to another Activity and get the parameters passed back from the new Activity?</item>
+        <item>startActivity</item>
+        <item>startActivityForResult</item>
+        <item>finish</item>
+    </string-array>
+    <item name="arrayQuiz" type="id" />
+</resources>
